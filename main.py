@@ -110,18 +110,6 @@ class Recherche_polymorph():
     return table1
 
 
-  def graphique_ID(self):
-    import matplotlib as mpl
-    import matplotlib.pyplot as plt
-    import numpy as np
-    #table = variant_genetique_liste2(poly)
-    table = self.nb_polymorphisme ()
-  
-    plt.hist(table, histtype='bar', bins = 'auto', orientation='vertical')
-  #return numpy.histogram(table,bins='auto')
-    return plt.savefig('plot1.png')  #table["ID"].hist()
-
-
   def camembert(self):
     import matplotlib as mpl
     import matplotlib.pyplot as plt
@@ -135,7 +123,7 @@ class Recherche_polymorph():
     plt.pie(table1, labels = tableau3,autopct="%1.2f pourcents")
     plt.legend()
     plt.title("Fréquences allèliques des polymorphismes")
-    return plt.savefig('plot3.png')
+    return plt.show()
 
 
 
