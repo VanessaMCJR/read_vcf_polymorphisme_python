@@ -113,7 +113,6 @@ class Recherche_polymorph():
   def camembert(self):
     import matplotlib as mpl
     import matplotlib.pyplot as plt
-    import numpy as np
     tableau = self.new_tableau()
     table = self.nb_polymorphisme()
     table1 = [n for n in table]
