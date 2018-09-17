@@ -2,9 +2,6 @@ vitamineb12 =["rs2336573","rs1131603","rs3742801","rs2270655","rs12272669","rs34
 
 test =["rs9803031","rs10267"]
 
-#print(variant_genetique_liste(test))
-
-#print(variant_genetique_liste(vitamineb12))
 
 class Recherche_polymorph():
 
