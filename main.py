@@ -69,8 +69,6 @@ class Recherche_polymorph():
               resultat = resultat.split(":")
               resultat = resultat[0:3]
               patient_gene.append(resultat)
-                  
-
     return(patient_gene) 
   
   def tableau_initial(self):
