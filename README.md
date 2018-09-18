@@ -120,7 +120,7 @@ class Recherche_polymorph():
     plt.pie(table1, labels = tableau3,autopct="%1.2f pourcents")
     plt.legend()
     plt.title("Fréquences allèliques des polymorphismes")
-    return plt.show()
+    return plt.savefig('plot3.png')
 
 
 
