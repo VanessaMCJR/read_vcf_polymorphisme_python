@@ -96,13 +96,6 @@ class Recherche_polymorph():
     tableau = self.new_tableau()
     return tableau.groupby("ID").size() #tableau["ID"].value_counts()
 
-  def new_donnee(self):
-    tableau = self.new_tableau()
-    table = self.nb_polymorphisme()
-    table1 = [n for n in table]
-    tableau2 =[r for r in tableau['ID']]
-    tableau3 = sorted(set(tableau2))
-    return table1
 
 
   def camembert(self):
